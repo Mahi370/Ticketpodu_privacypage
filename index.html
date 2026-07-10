@@ -3,304 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ticket Podu — IRCTC, SETC & KSRTC booking reminder app. Set alerts, track windows, never miss a ticket.">
-  <title>Ticket Podu — Booking Reminder App</title>
+  <meta name="description" content="Ticket Podu — IRCTC & SETC booking reminder app. Privacy, terms, support, and account deletion.">
+  <title>Ticket Podu</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="wrap">
-    <header class="hero">
-      <div class="hero-inner">
-        <div class="logo-mark" aria-hidden="true">TP</div>
-        <p class="mission">Remind · Book · Travel</p>
-        <h1>Ticket Podu</h1>
-        <p class="tagline">
-          The smart booking reminder app for IRCTC, SETC, and KSRTC travellers.
-          Track ticket windows, get daily alerts, and book on time — every time.
-        </p>
-      </div>
+    <header class="home-hero">
+      <div class="logo-mark" aria-hidden="true">TP</div>
+      <h1>Ticket Podu</h1>
+      <p class="tagline">
+        Never miss an IRCTC, SETC, or KSRTC booking window. Set reminders, get alerts, book on time.
+      </p>
     </header>
 
-    <nav class="hub-grid" aria-label="Quick links">
-      <a class="hub-card" href="#privacy">
+    <nav class="hub-grid" aria-label="Legal and support pages">
+      <a class="hub-card" href="privacy-policy.html">
         <div class="hub-card-top">
           <h2><span class="hub-icon" aria-hidden="true">🛡</span>Privacy policy</h2>
-          <span class="arrow" aria-hidden="true">↓</span>
+          <span class="arrow" aria-hidden="true">→</span>
         </div>
-        <p>How we handle your data, sign-in, and Pro subscription.</p>
+        <p>How we handle your Google sign-in, reminders, and Pro subscription data.</p>
       </a>
-      <a class="hub-card" href="#delete-account">
+
+      <a class="hub-card" href="delete-account.html">
         <div class="hub-card-top">
-          <h2><span class="hub-icon" aria-hidden="true">🗑</span>Delete account</h2>
-          <span class="arrow" aria-hidden="true">↓</span>
+          <h2><span class="hub-icon" aria-hidden="true">🗑</span>Delete account &amp; data</h2>
+          <span class="arrow" aria-hidden="true">→</span>
         </div>
-        <p>Remove your account and all linked app data.</p>
+        <p>Request permanent removal of your account and all linked app data.</p>
       </a>
-      <a class="hub-card" href="#terms">
+
+      <a class="hub-card" href="terms-and-conditions.html">
         <div class="hub-card-top">
           <h2><span class="hub-icon" aria-hidden="true">📄</span>Terms &amp; conditions</h2>
-          <span class="arrow" aria-hidden="true">↓</span>
+          <span class="arrow" aria-hidden="true">→</span>
         </div>
-        <p>Free vs Pro plans, subscriptions, and app rules.</p>
+        <p>Free vs Pro plans, reminders, subscriptions, and how the app works.</p>
       </a>
-      <a class="hub-card" href="#support">
+
+      <a class="hub-card" href="support.html">
         <div class="hub-card-top">
           <h2><span class="hub-icon" aria-hidden="true">✉</span>Support</h2>
-          <span class="arrow" aria-hidden="true">↓</span>
+          <span class="arrow" aria-hidden="true">→</span>
         </div>
-        <p>Get help, send feedback, or report a bug.</p>
+        <p>Get help, send feedback, or report a bug. We reply within 24–48 hours.</p>
+      </a>
+
+      <a class="hub-card hub-card-featured" href="app.html">
+        <div class="hub-card-top">
+          <h2><span class="hub-icon" aria-hidden="true">✨</span>About the app</h2>
+          <span class="arrow" aria-hidden="true">→</span>
+        </div>
+        <p>What Ticket Podu does, all features, how it works, and Free vs Pro plans.</p>
       </a>
     </nav>
 
-    <section class="section" id="about">
-      <span class="section-label">About</span>
-      <h2>What is Ticket Podu?</h2>
-      <p class="lead">
-        Ticket Podu is a reminder and planning tool — not a ticket booking app.
-        It tells you exactly when IRCTC, SETC, and KSRTC booking windows open,
-        so you can book on the official websites yourself.
-      </p>
-      <div class="card">
-        <p>
-          Indian train and bus tickets open on fixed schedules. Miss the window
-          by even a few minutes and seats fill up fast. Ticket Podu watches those
-          schedules for you, sends notifications and alarms, and keeps your trips
-          organised in one dashboard.
-        </p>
-        <div class="stat-row">
-          <div class="stat">
-            <strong>IRCTC</strong>
-            <span>Train tickets</span>
-          </div>
-          <div class="stat">
-            <strong>SETC</strong>
-            <span>TN bus tickets</span>
-          </div>
-          <div class="stat">
-            <strong>KSRTC</strong>
-            <span>Kerala buses</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="features">
-      <span class="section-label">Features</span>
-      <h2>Everything the app can do</h2>
-      <p class="lead">Built for passengers who plan ahead and never want to miss an opening slot.</p>
-      <div class="feature-grid">
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">🏠</div>
-          <h3>Podu home</h3>
-          <p>Live countdown to IRCTC and SETC booking windows with one-tap access to open booking apps.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">🔔</div>
-          <h3>Daily booking alerts</h3>
-          <p>Get notified when train and bus ticket booking windows open each day.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">📅</div>
-          <h3>Trip reminders</h3>
-          <p>Save trips with travel date and ticket type. Alerts fire 3 days before, 1 day before, and on booking day.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">⏰</div>
-          <h3>Trip alarms</h3>
-          <p>A loud phone alarm rings on booking day morning so you never sleep through the window.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">📋</div>
-          <h3>Mine dashboard</h3>
-          <p>Track all saved reminders, days left until booking opens, and travel dates in one place.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">🎉</div>
-          <h3>Festival calendar</h3>
-          <p>See upcoming festivals and plan travel around peak booking seasons.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">☁</div>
-          <h3>Cloud sync</h3>
-          <p>Booking rules, URLs, festival data, and alert times stay updated from Firebase.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">🔐</div>
-          <h3>Google sign-in</h3>
-          <p>Sign in to sync reminders across devices and keep your data safe.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">🌓</div>
-          <h3>Light &amp; dark theme</h3>
-          <p>Switch between light, dark, or follow your phone system theme.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">⭐</div>
-          <h3>Ticket Podu Pro</h3>
-          <p>Unlimited Mine reminders, IRCTC Tatkal alerts, and custom ticket types.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="how-it-works">
-      <span class="section-label">How it works</span>
-      <h2>Three simple steps</h2>
-      <p class="lead">From reminder to booking in minutes.</p>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <div>
-            <h3>Add your trip</h3>
-            <p>Enter route, travel date, and ticket type (General, Tatkal, or Custom). Save it to Mine.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <div>
-            <h3>Get alerts</h3>
-            <p>Receive notifications 3 days before, 1 day before, and on booking day. A loud alarm rings on the morning of booking.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <div>
-            <h3>Book on time</h3>
-            <p>Tap through to the official IRCTC or SETC website and book while the window is open.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="plans">
-      <span class="section-label">Plans</span>
-      <h2>Free &amp; Pro</h2>
-      <p class="lead">Start free. Upgrade when you need more reminders and Tatkal alerts.</p>
-      <div class="plan-grid">
-        <div class="plan">
-          <h3>Free</h3>
-          <ul>
-            <li>Up to 3 reminders in Mine</li>
-            <li>IRCTC, SETC &amp; KSRTC alerts</li>
-            <li>Daily booking notifications</li>
-            <li>Festival calendar</li>
-            <li>Google sign-in &amp; cloud sync</li>
-          </ul>
-        </div>
-        <div class="plan pro">
-          <h3>Ticket Podu Pro</h3>
-          <ul>
-            <li>Unlimited Mine reminders</li>
-            <li>IRCTC Tatkal reminders</li>
-            <li>Custom ticket types</li>
-            <li>Phone alarms for Pro reminder types</li>
-            <li>1-month, 3-month &amp; 12-month plans via Google Play</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="privacy">
-      <span class="section-label">Legal</span>
-      <h2>Privacy policy</h2>
-      <p class="lead">Last updated 11 July 2026</p>
-      <div class="legal-card">
-        <h3>What we collect</h3>
-        <p><strong>Account:</strong> Google display name, email, and profile photo via Firebase Authentication.</p>
-        <p><strong>Reminders:</strong> Route, travel date, booking type, and alert preferences you save in the app.</p>
-        <p><strong>Subscription:</strong> Pro status and expiry linked to your account. Payments handled by Google Play.</p>
-        <p><strong>Device:</strong> Basic technical info (app version, sync timestamps) for notifications and reliability.</p>
-
-        <h3>How we use it</h3>
-        <p>We authenticate you, sync reminders, verify Pro subscriptions, schedule notifications and alarms, and improve reliability. We do not sell your data or use it for third-party advertising.</p>
-
-        <h3>Third-party services</h3>
-        <p>Firebase for sign-in and data sync. Google Play Billing for Pro purchases. Official IRCTC, SETC, and KSRTC sites have their own privacy practices when you open them from the app.</p>
-
-        <h3>Your choices</h3>
-        <p>Sign out anytime. Revoke notification permissions in device settings. Manage Pro in Google Play → Subscriptions. Delete individual reminders in Mine without deleting your account.</p>
-      </div>
-    </section>
-
-    <section class="section" id="delete-account">
-      <span class="section-label">Account</span>
-      <h2>Delete account &amp; data</h2>
-      <p class="lead">Permanent removal of your account and all linked data.</p>
-      <div class="legal-card">
-        <h3>Option 1 — In the app (fastest)</h3>
-        <ol>
-          <li>Open Ticket Podu and sign in.</li>
-          <li>Go to <strong>Profile → Delete my account</strong>.</li>
-          <li>Confirm. Your account and data are removed immediately.</li>
-        </ol>
-
-        <h3>Option 2 — By email</h3>
-        <p>If you cannot open the app, email
-          <a href="mailto:supportticketpodu@gmail.com?subject=Delete%20my%20Ticket%20Podu%20account">supportticketpodu@gmail.com</a>
-          from your sign-in Google account with subject <strong>Delete my Ticket Podu account</strong>. Processed within 30 days.</p>
-
-        <h3>What gets deleted</h3>
-        <p>Display name, email, profile photo, all reminders, subscription status, notification preferences, and other app data linked to your account.</p>
-
-        <h3>What we keep</h3>
-        <p>Google Play billing records are managed by Google. Cancel active subscriptions in Google Play → Subscriptions.</p>
-      </div>
-    </section>
-
-    <section class="section" id="terms">
-      <span class="section-label">Legal</span>
-      <h2>Terms &amp; conditions</h2>
-      <p class="lead">Last updated 11 July 2026</p>
-      <div class="legal-card">
-        <h3>Agreement</h3>
-        <p>By using Ticket Podu or subscribing to Pro, you agree to these terms. Ticket Podu does not book tickets and is not affiliated with Indian Railways, IRCTC, SETC, KSRTC, or any government authority.</p>
-
-        <h3>Your responsibilities</h3>
-        <p>You are responsible for accurate trip details and completing bookings on official websites. Use the app lawfully and keep your Google account secure.</p>
-
-        <h3>No guarantee</h3>
-        <p>Reminders and booking-window info are for convenience. Schedules can change. We do not guarantee alert timing, ticket availability, or error-free information.</p>
-
-        <h3>Pro subscription</h3>
-        <p>Auto-renewing via Google Play. Cancel anytime in Google Play → Subscriptions. When Pro ends, Tatkal and Custom alerts pause. If you have more than 3 reminders, only your 3 earliest are kept; extras are removed automatically.</p>
-
-        <h3>Liability &amp; law</h3>
-        <p>Ticket Podu is not liable for missed bookings, travel losses, or notification delays. Governed by the laws of India.</p>
-      </div>
-    </section>
-
-    <section class="section" id="support">
-      <span class="section-label">Help</span>
-      <h2>Support</h2>
-      <p class="lead">We usually reply within 24–48 hours, Monday to Saturday.</p>
-      <div class="support-links">
-        <a class="support-link" href="mailto:supportticketpodu@gmail.com?subject=Ticket%20Podu%20support">
-          <strong>Email support</strong>
-          <span>supportticketpodu@gmail.com — questions &amp; feedback</span>
-        </a>
-        <a class="support-link" href="mailto:supportticketpodu@gmail.com?subject=Ticket%20Podu%20bug%20report">
-          <strong>Report a bug</strong>
-          <span>Describe the issue and steps to reproduce</span>
-        </a>
-        <a class="support-link" href="mailto:supportticketpodu@gmail.com?subject=Ticket%20Podu%20Pro%20help">
-          <strong>Pro subscription help</strong>
-          <span>Restore purchases, billing, or Pro features</span>
-        </a>
-      </div>
-      <div class="callout" style="margin-top:1rem">
-        <strong>Common fixes:</strong> Reminders not firing? Check notification &amp; alarm permissions. Pro not showing? Use Restore purchases while signed in with your purchase Google account.
-      </div>
-    </section>
-
     <footer class="site-footer">
-      <nav>
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
-        <a href="#delete-account">Delete account</a>
-        <a href="#terms">Terms</a>
-        <a href="#support">Support</a>
-      </nav>
-      <p>&copy; Ticket Podu · Made for Indian travellers</p>
+      <p>&copy; Ticket Podu · Booking reminders for Indian travellers</p>
     </footer>
   </main>
 </body>
